@@ -1,0 +1,41 @@
+.App {
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    font-size: larger;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#columns{
+    display: flex;
+    flex-direction: column;
+    stroke-dashoffset:  5%;
+}
+
+.customer {
+    width: 25%;
+    float: left;
+    padding-bottom: 2%;
+    box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+}
+
+.id {
+    font-weight:bold;
+    font-size: x-large;
+    padding-bottom: 1%;
+    float: center;
+}
+
+.artist{
+    width: 25%;
+    float: right;
+    box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;;
+    padding-bottom: 2%;
+}
+.name {
+    font-weight:bold;
+    font-size: x-large;
+
+}
